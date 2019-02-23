@@ -29,7 +29,7 @@ stars = init_stars.get_stars(screen)
 clock = pygame.time.Clock()
 running = True
 
-#事件
+# 事件
 while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
